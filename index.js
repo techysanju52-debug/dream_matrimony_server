@@ -9,7 +9,7 @@ const profileRoutes = require('./routes/profiles');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Vite default port, adjust if different
+  origin: 'https://dream-matrimony.vercel.app', // Vite default port, adjust if different
   credentials: true
 }));
 app.use(express.json());
